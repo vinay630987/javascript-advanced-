@@ -1,0 +1,180 @@
+body {
+    margin: 0px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 16px;
+    color: white;
+}
+
+p {
+    line-height: 1.6;
+    font-size: 1.05;
+    margin: 20px 0;
+}
+
+strong {
+    font-weight: bold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: black;
+    font-weight: bold;
+}
+
+.section {
+    width: 100%;
+    text-align: center;
+    background: white;
+    color: white;
+}
+
+.section--dark {
+    background: rgb(9, 43, 41);
+    color: #ffffff;
+}
+
+.section__content {
+    width: 100 0px;
+    margin: 0 auto;
+    padding: 30px;
+    color: black;
+    font-weight: bold;
+
+}
+
+.banner {
+    display: flex;
+    float: center;
+    padding-left: 20px;
+
+
+}
+
+.banner__logo {
+    height: 80px;
+    display: block;
+}
+
+#hero {
+
+    background: url("../images/landing.jpg");
+    background-size: cover;
+}
+
+.ctabox {
+    margin: 50px 20px;
+    max-width: 500px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.ctabox__heading {
+    color: #ffffff;
+    font-size: 3.2em;
+    margin-top: 0;
+}
+
+.ctabox__content p {
+    color: white;
+    font-size: 1.15em;
+}
+
+.button {
+    display: inline-block;
+    padding: 8px 18px;
+    color: green;
+    background: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid green;
+    border-radius: 5px;
+    transition: color 0.15s, background 0.15s, border-color 1.15s;
+
+}
+
+.button:hover {
+    color: black;
+    background-color: aqua;
+}
+
+.button i {
+    margin-left: 15px;
+}
+
+.icongroup {
+    display: flex;
+    align-items: center;
+
+}
+
+.icongroup__icon {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1.75rem;
+    transition: color 0.15s;
+
+
+}
+
+.icongroup__icon:not(:last-child) {
+    margin-right: 25px;
+}
+
+.icongroup__icon:hover {
+    color: rgb(0, 157, 174);
+
+}
+
+.icongroup {
+    margin-left: 1000px;
+}
+
+#footer {
+    background: rgb(15, 125, 15);
+    color: white;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1rem;
+}
+
+.grid__icon {
+    font-size: 1.05em;
+    color: white;
+}
+
+
+
+.grid__item {
+    width: 25%;
+    Padding: 10px;
+    box-sizing: border-box;
+}
+
+.grid__text {
+    margin-top: 20px;
+    font-size: 1.15em;
+    font-weight: bold;
+}
+
+@media screen and (max-width:480px) {}
+
+.ctabox {
+    font-size: 0.85rem;
+}
+
+@media screen and (max-width:768px) {
+    .grid {
+        font-size: 0.85rem;
+    }
+
+    .grid__item {
+        width: 50%;
+    }
+}
